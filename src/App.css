@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+select{
+  padding: 10px;
+}
+
+.wrapper{
+  margin: auto 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
