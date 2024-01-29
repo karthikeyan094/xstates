@@ -80,10 +80,7 @@ function App() {
         </select>
       </div>
       {selectedCity && (
-        <h3>
-          You Selected <span style={{ fontSize: "30px" }}>{selectedCity}</span>, <span style={{ color: "#ccc" }}>{selectedState}, {selectedCountry}
-          </span>
-        </h3>
+        <h3>You Selected {selectedCity}, {selectedState}, {selectedCountry}</h3>
       )}
     </div>
   );
